@@ -1,0 +1,387 @@
+/* below 1300px  */
+
+@media (max-width: 81.25em) {
+  .header-section {
+    padding: 3.2rem 1.5rem;
+  }
+  .how-does-it-work-section .how-does-title {
+    padding: 0px 4rem;
+  }
+  .how-does-it-work-section .how-does-subtitle-btn {
+    padding: 0px 4rem;
+  }
+  .how-does-it-work-section .how-does-cards {
+    padding: 0 8rem;
+  }
+  .how-does-it-work-2nd-section .how-does-title {
+    padding: 0px 4rem;
+  }
+  .how-does-it-work-2nd-section .how-does-subtitle {
+    padding: 0px 4rem;
+  }
+
+  .how-does-it-work-2nd-section .how-does-it-work-2nd-video-box {
+    padding: 0 2rem;
+  }
+  .how-does-it-work-2nd-section .how-does-it-work-2nd-video-editing-box {
+    padding: 0 2rem;
+  }
+  .download-app-subsection {
+    padding: 15rem 8rem 15rem 8rem;
+  }
+}
+
+/* Below 600 ( mobile) */
+@media (max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
+  .header-section {
+    position: relative;
+  }
+  .nav-bar-items {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+
+    transform: translateX(100%);
+    /* default hidden */
+    opacity: 0;
+    pointer-events: none;
+    /* visibility: hidden; */
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-open .nav-bar-items {
+    opacity: 0.98;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1;
+  }
+  .nav-open .btn-mobile-nav .icon-mobile-nav-close {
+    display: block;
+  }
+
+  .nav-open .btn-mobile-nav .icon-mobile-nav-menu {
+    display: none;
+  }
+  .nav-bar-item i {
+    display: none;
+  }
+  /***********************************************/
+  /***********************************************/
+
+  /***********************************************/
+  /* Hero Section */
+  /***********************************************/
+  .hero-section {
+    padding: 3.8rem 0 0 6rem;
+  }
+  .hero-text-box {
+    /* padding-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 13px; */
+    align-items: start;
+  }
+
+  form {
+    max-width: 53rem;
+  }
+  .hero-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .hero-img {
+    width: 50%;
+  }
+  .hero-title {
+    font-size: 4.2rem;
+  }
+
+  /***********************************************/
+  /* How does it work 1 section */
+  /***********************************************/
+
+  .how-does-it-work-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .how-does-subtitle-btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  .how-does-btn {
+    border: 2px solid #d4d3d73b;
+    /* margin-bottom: 5rem; */
+  }
+
+  .how-does-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0;
+  }
+
+  .card-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /***********************************************/
+  /* make marketing */
+  /***********************************************/
+
+  .make-marketing {
+    grid-template-columns: 1fr;
+    padding: 2rem 3rem;
+    height: 35rem;
+    margin: 0 8rem;
+  }
+
+  .make-marketing-img-box {
+    display: none;
+  }
+
+  .make-marketing-text-box {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .make-marketing-text-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .make-marketing-text-subtitle {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .make-marketing-text-option-box {
+    flex-direction: column;
+    gap: 2rem;
+    align-self: self-start;
+  }
+  /***********************************************/
+  /* Whenever you need section */
+  /***********************************************/
+  .whenever-you-need-content-feature {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 3.6rem 14px;
+  }
+
+  .whenever-you-need-title {
+    font-size: 3rem;
+  }
+
+  .whenever-you-need-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .whenever-you-need-subSection {
+    /* padding: 8rem 9.6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .whenever-you-need-content-img-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .whenever-you-need-content-img {
+    width: 100%;
+  }
+
+  /***********************************************/
+  /* how-does-it-work-2  */
+  /***********************************************/
+  .how-does-it-work-2nd-section .how-does-title {
+    font-size: 4rem;
+  }
+  .how-does-it-work-2nd-section .how-does-subtitle {
+    font-size: 1.5rem;
+  }
+  .how-does-it-work-2nd-active-installation-box {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .active-installation-content-box {
+    display: flex;
+    width: 70%;
+  }
+  .how-does-it-work-2nd-section .how-does-it-work-2nd-video-box {
+    padding: 0 6rem;
+  }
+
+  .how-does-it-work-2nd-video-box {
+    flex-direction: column;
+  }
+
+  .how-does-it-work-2nd-tutorial-vid {
+    width: 100%;
+  }
+  .work-2nd-video-editing-instruction {
+    padding-left: 0;
+  }
+  .how-does-it-work-2nd-tutorial-img {
+    width: 100%;
+  }
+  .work-2nd-video-editing-arrow {
+    display: none;
+  }
+
+  /***********************************************/
+  /*download app section  */
+  /***********************************************/
+  .download-app-left-title {
+    font-size: 2.9rem;
+  }
+
+  .download-app-left-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .download-app-button-style {
+    padding: 1rem 2.5rem;
+  }
+  /***********************************************/
+  /*  Simple Price section  */
+  /***********************************************/
+
+  .simple-price-section-title {
+    font-size: 3rem;
+  }
+  .simple-price-options-box {
+    gap: 2.5rem;
+  }
+
+  .simple-price-section-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .price-system-title-active:after {
+    left: 30.7rem;
+  }
+
+  .simple-price-title-box {
+    text-align: center;
+  }
+
+  .price-system-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+  }
+
+  /***********************************************/
+  /* testimonial box */
+  /***********************************************/
+  .testimonial-box {
+    padding: 5rem 5rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin: 0 5rem;
+  }
+
+  .testimonial-text {
+    text-align: center;
+  }
+
+  .testimonial-customer-data-btn {
+    justify-content: center;
+  }
+  .testimonial-customer-data {
+    align-items: center;
+  }
+  .testimonial-customer-btn {
+    display: none;
+  }
+
+  /***********************************************/
+  /* Appie Works section */
+  /***********************************************/
+
+  .appie-works-box {
+    padding: 0px 6rem;
+
+    gap: 5rem;
+  }
+
+  .appie-works-title {
+    font-size: 3.3rem;
+  }
+
+  /***********************************************/
+  /* Footer Works section */
+  /***********************************************/
+
+  .footer-first-part {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .footer-col-1,
+  .footer-col-2 {
+    align-items: center;
+    gap: 3.5rem;
+  }
+  .footer-col-list {
+    align-items: center;
+  }
+
+  .footer-second-box {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-second-part-copyright {
+    font-size: 1.7rem;
+  }
+}
